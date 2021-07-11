@@ -1,3 +1,3 @@
 #!/bin/bash
-chmod -R 755 /var/www/ankit.squareops.xyz/wp-content/uploads
-chown -R www-data:www-data /var/www/ankit.squareops.xyz/wp-content/uploads
+chmod -R 755 /var/www/html/ankit.squareops.xyz/public_html/wp-content
+chown -R www-data:www-data /var/www/html/ankit.squareops.xyz/public_html/wp-content
