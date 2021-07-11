@@ -5,11 +5,7 @@ files:
       destination: /var/www/ankit.squareops.xyz/
       
 
-hooks:  
-  BeforeInstall:
-    - location: scripts/beforeInstall.sh
-      timeout: 300
-      runas: root
+hooks:
   ApplicationStart:
     - location: scripts/start_server.sh
       timeout: 300
