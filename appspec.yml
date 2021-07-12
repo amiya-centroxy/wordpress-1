@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
     - source: /
-      destination: /var/www/html/ankit.squareops.xyz/public_html/
+      destination: /var/www/html/ankitword  .squareops.xyz/public_html/
       
 
 hooks:
