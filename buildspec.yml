@@ -8,7 +8,7 @@ env:
            DB_NAME: "/amiya/DB_NAME"
 
 phases:
-    build:
+   build:
         commands:
             - sed -i 's/database_name_here/'$DB_NAME'/' wp-config.php
             - sed -i 's/username_here/'$DB_USER'/' wp-config.php
