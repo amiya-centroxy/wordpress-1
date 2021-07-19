@@ -2,10 +2,10 @@ version: 0.2
 
 env:
    parameter-store:
-           DB_USER: "/ankit/DB_USER"
-           DB_PASSWORD: "/ankit/DB_PASSWORD"
-           DB_HOST: "/ankit/DB_HOST"
-           DB_NAME: "/ankit/DB_NAME"
+           DB_USER: "/amiya/DB_USER"
+           DB_PASSWORD: "/amiya/DB_PASSWORD"
+           DB_HOST: "/amiya/DB_HOST"
+           DB_NAME: "/amiya/DB_NAME"
 
 phases:
     build:
