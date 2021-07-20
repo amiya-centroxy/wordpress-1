@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -f /var/www/html/amiya.sqaureops.xyz/public.html
+rm -f /var/www/html/amiya.sqaureops.xyz/index.html
