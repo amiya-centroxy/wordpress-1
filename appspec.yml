@@ -6,10 +6,6 @@ files:
       
 
 hooks:
-  BeforeInstall:
-    - location: scripts/b_install.sh
-      timeout: 300
-      runas: root
   AfterInstall:
     - location: scripts/permission.sh
       timeout: 300
