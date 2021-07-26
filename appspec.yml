@@ -6,19 +6,15 @@ files:
       
 
 hooks:
-  ApplicationStart:
-    - location: scripts/start_server.sh
-      timeout: 300
-      runas: root
-  AfterInstall:
-    - location: scripts/permission.sh
-      timeout: 300
-      runas: root
-  ApplicationStop:
-    - location: scripts/stop.sh
-      timeout: 300
-      runas: root
   BeforeInstall:
     - location: scripts/b_install.sh
       timeout: 300
-      runas: root  
+      runas: ubuntu
+  AfterInstall:
+    - location: scripts/permission.sh
+      timeout: 300
+      runas: ubuntu
+  ApplicationStart:
+    - location: scripts/start_server.sh
+      timeout: 300
+      runas: ubuntu
