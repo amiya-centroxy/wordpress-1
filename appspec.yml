@@ -1,5 +1,4 @@
 version: 0.0
-os: linux
 files:
     - source: /
       destination: /var/www/html/amiya.squareops.xyz/
@@ -9,12 +8,12 @@ hooks:
   BeforeInstall:
     - location: scripts/b_install.sh
       timeout: 300
-      runas: ubuntu
+      runas: root
   AfterInstall:
     - location: scripts/permission.sh
       timeout: 300
-      runas: ubuntu
+      runas: root
   ApplicationStart:
     - location: scripts/start_server.sh
       timeout: 300
-      runas: ubuntu
+      runas: root
