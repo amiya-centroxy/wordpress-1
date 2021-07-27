@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
     - source: /
-      destination: /var/www/html/amiya.squareops.co.in/
+      destination: /var/www/html/
       
 
 hooks:
