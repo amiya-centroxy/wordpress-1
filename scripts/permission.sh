@@ -1,5 +1,5 @@
 #!/bin/bash
-chmod -R 755 /var/www/html/amiya.squareops.co.in/public_html/wp-content/uploads
-chown -R www-data:www-data /var/www/html/amiya.squareops.co.in/public_html/wp-content/uploads
-chmod -R 755 /var/www/html/amiya.squareops.co.in/public_html/wp-content
-chown -R www-data:www-data /var/www/html/amiya.squareops.co.in/public_html/wp-content
+chmod -R 755 /var/www/html/amiya.squareops.co.in/
+chown -R www-data:www-data /var/www/html/amiya.squareops.co.in/
+chmod -R 755 /var/www/html/amiya.squareops.co.in/
+chown -R www-data:www-data /var/www/html/amiya.squareops.co.in/
