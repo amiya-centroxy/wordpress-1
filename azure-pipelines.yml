@@ -1,4 +1,11 @@
 # PHP as Linux Web App on Azure
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Free Trial (b843e926-887c-44f5-b8d2-892bc2979df8)'
+    appType: 'webAppLinux'
+    WebAppName: 'wordpr'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
 - task:
   inputs:
     ConnectionType: 'AzureRM'
